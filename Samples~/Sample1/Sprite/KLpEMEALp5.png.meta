@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 5869a7364a842014388f2fe2678ed1b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1595475190184979970
+    second: KLpEMEALp5_0
+  - first:
+      213: 5756915025789403253
+    second: KLpEMEALp5_1
+  - first:
+      213: -5799813265545746055
+    second: KLpEMEALp5_2
+  - first:
+      213: -289474323645853543
+    second: KLpEMEALp5_3
+  - first:
+      213: 7698680598532057774
+    second: KLpEMEALp5_4
+  - first:
+      213: -4844234729164887185
+    second: KLpEMEALp5_5
+  - first:
+      213: 4837919834204389528
+    second: KLpEMEALp5_6
+  - first:
+      213: 1111825009417282062
+    second: KLpEMEALp5_7
+  - first:
+      213: -1069758062348063449
+    second: KLpEMEALp5_8
+  - first:
+      213: 3117916920518092918
+    second: KLpEMEALp5_9
+  - first:
+      213: 4298882214916667748
+    second: KLpEMEALp5_10
+  - first:
+      213: 3404430135283983725
+    second: KLpEMEALp5_11
+  - first:
+      213: 3615251193321230780
+    second: KLpEMEALp5_12
+  - first:
+      213: 5393680166541459320
+    second: KLpEMEALp5_13
+  - first:
+      213: 1175960531397044043
+    second: KLpEMEALp5_14
+  - first:
+      213: -1344862662715157559
+    second: KLpEMEALp5_15
+  - first:
+      213: 3505202570355444378
+    second: KLpEMEALp5_16
+  - first:
+      213: -8966717340794294820
+    second: KLpEMEALp5_17
+  - first:
+      213: 5802838432310143103
+    second: KLpEMEALp5_18
+  - first:
+      213: 8413547101120246427
+    second: KLpEMEALp5_19
+  - first:
+      213: 4253858064908863817
+    second: KLpEMEALp5_20
+  - first:
+      213: -4392911889924317205
+    second: KLpEMEALp5_21
+  - first:
+      213: 3307919946682438237
+    second: KLpEMEALp5_22
+  - first:
+      213: 2447031647013140252
+    second: KLpEMEALp5_23
+  - first:
+      213: -7476431942393359441
+    second: KLpEMEALp5_24
+  - first:
+      213: -3913203443021205133
+    second: KLpEMEALp5_25
+  - first:
+      213: -6762127876041380291
+    second: KLpEMEALp5_26
+  - first:
+      213: 3176453030930258406
+    second: KLpEMEALp5_27
+  - first:
+      213: -491235992737818725
+    second: KLpEMEALp5_28
+  - first:
+      213: -7836544601844275800
+    second: KLpEMEALp5_29
+  - first:
+      213: 6521650215716434380
+    second: KLpEMEALp5_30
+  - first:
+      213: 7824217624972124393
+    second: KLpEMEALp5_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KLpEMEALp5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 263
+        width: 939
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20eace67b34442610800000000000000
+      internalID: 1595475190184979970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_1
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 312
+        width: 303
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570494ae6bba4ef40800000000000000
+      internalID: 5756915025789403253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_2
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 318
+        width: 428
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9792c8f409ce28fa0800000000000000
+      internalID: -5799813265545746055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 193
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9901e77e2a49bfbf0800000000000000
+      internalID: -289474323645853543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 192
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaae1ba073537da60800000000000000
+      internalID: 7698680598532057774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 192
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b248ffd22d5ccb0800000000000000
+      internalID: -4844234729164887185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_6
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 192
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890c191f47eb32340800000000000000
+      internalID: 4837919834204389528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 192
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0266b294fefd6f00800000000000000
+      internalID: 1111825009417282062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_8
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 192
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d222ac5b47721f0800000000000000
+      internalID: -1069758062348063449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 192
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67829a67be0154b20800000000000000
+      internalID: 3117916920518092918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 192
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4693a571992b8ab30800000000000000
+      internalID: 4298882214916667748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 193
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65ac3cab27fe3f20800000000000000
+      internalID: 3404430135283983725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_12
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 192
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb118bf4ec3fb2230800000000000000
+      internalID: 3615251193321230780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_13
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 192
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ff5c6d8833ada40800000000000000
+      internalID: 5393680166541459320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_14
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 168
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47eccf6fd9d15010800000000000000
+      internalID: 1175960531397044043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_15
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 168
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c35d2d9886165de0800000000000000
+      internalID: -1344862662715157559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_16
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 169
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a82d79a2bf4a030800000000000000
+      internalID: 3505202570355444378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_17
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 168
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddee941612df8380800000000000000
+      internalID: -8966717340794294820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_18
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 168
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78a4d63fc2d78050800000000000000
+      internalID: 5802838432310143103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 91
+        width: 350
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b923a47f28ce2c470800000000000000
+      internalID: 8413547101120246427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_20
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 57
+        width: 54
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949c2d34f5db80b30800000000000000
+      internalID: 4253858064908863817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_21
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 104
+        width: 105
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef987729ed3903c0800000000000000
+      internalID: -4392911889924317205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_22
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 127
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d529f675aa718ed20800000000000000
+      internalID: 3307919946682438237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_23
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 127
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c177b5a615a95f120800000000000000
+      internalID: 2447031647013140252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_24
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 127
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3924e92c06e3890800000000000000
+      internalID: -7476431942393359441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_25
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 129
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371b2ec933281b9c0800000000000000
+      internalID: -3913203443021205133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_26
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 129
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e69c626881822a0800000000000000
+      internalID: -6762127876041380291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_27
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 128
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e99f4ab337051c20800000000000000
+      internalID: 3176453030930258406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_28
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 104
+        width: 105
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97d9ff9777ce29f0800000000000000
+      internalID: -491235992737818725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_29
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 353
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5219454300f3390800000000000000
+      internalID: -7836544601844275800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_30
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 16
+        width: 232
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1b029615e818a50800000000000000
+      internalID: 6521650215716434380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KLpEMEALp5_31
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 16
+        width: 232
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e060d5b974359c60800000000000000
+      internalID: 7824217624972124393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 51b1c8d3cb2e08347b208ac9a26e744b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KLpEMEALp5_28: -491235992737818725
+      KLpEMEALp5_14: 1175960531397044043
+      KLpEMEALp5_18: 5802838432310143103
+      KLpEMEALp5_26: -6762127876041380291
+      KLpEMEALp5_29: -7836544601844275800
+      KLpEMEALp5_27: 3176453030930258406
+      KLpEMEALp5_2: -5799813265545746055
+      KLpEMEALp5_11: 3404430135283983725
+      KLpEMEALp5_7: 1111825009417282062
+      KLpEMEALp5_25: -3913203443021205133
+      KLpEMEALp5_19: 8413547101120246427
+      KLpEMEALp5_31: 7824217624972124393
+      KLpEMEALp5_21: -4392911889924317205
+      KLpEMEALp5_4: 7698680598532057774
+      KLpEMEALp5_22: 3307919946682438237
+      KLpEMEALp5_8: -1069758062348063449
+      KLpEMEALp5_13: 5393680166541459320
+      KLpEMEALp5_23: 2447031647013140252
+      KLpEMEALp5_6: 4837919834204389528
+      KLpEMEALp5_3: -289474323645853543
+      KLpEMEALp5_16: 3505202570355444378
+      KLpEMEALp5_10: 4298882214916667748
+      KLpEMEALp5_17: -8966717340794294820
+      KLpEMEALp5_24: -7476431942393359441
+      KLpEMEALp5_9: 3117916920518092918
+      KLpEMEALp5_0: 1595475190184979970
+      KLpEMEALp5_30: 6521650215716434380
+      KLpEMEALp5_20: 4253858064908863817
+      KLpEMEALp5_12: 3615251193321230780
+      KLpEMEALp5_1: 5756915025789403253
+      KLpEMEALp5_5: -4844234729164887185
+      KLpEMEALp5_15: -1344862662715157559
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.blg.gtc.language/Editor/UI/KeyListView/KeyListView.uss?fileID=7433441132597879392&amp;guid=dcad02f02ec9bd348b329f460a7d71de&amp;type=3#KeyListView" />
+    <uie:ToolbarSearchField focusable="true" name="SearchBar" />
+    <ui:VisualElement name="ListHeader" style="flex-direction: row; align-items: center;">
+        <ui:Label text="Key" display-tooltip-when-elided="true" class="list-item-key" />
+        <ui:Label text="Value" display-tooltip-when-elided="true" class="ListItemValue list-item-value" />
+        <ui:Label text="Comment" display-tooltip-when-elided="true" class="ListItemComment list-item-comment" />
+    </ui:VisualElement>
+    <ui:ListView focusable="true" virtualization-method="DynamicHeight" show-foldout-header="false" show-add-remove-footer="false" name="KeyList" show-border="true" show-alternating-row-backgrounds="All" style="height: 100%;" />
+</ui:UXML>

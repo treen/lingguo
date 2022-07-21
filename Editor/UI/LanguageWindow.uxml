@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.blg.gtc.lingguo/Editor/UI/LanguageWindow.uss?fileID=7433441132597879392&amp;guid=f28a91e7e4365ba4986464f056dba41f&amp;type=3#LanguageWindow" />
+    <uie:Toolbar style="justify-content: space-between; align-items: auto; min-width: 500px;">
+        <ui:TextField picking-mode="Ignore" label="Language" text="new language name" usage-hints="None" is-delayed="true" name="NewLanguageName" style="flex-direction: row; align-items: auto; justify-content: space-between; width: auto; padding-right: 0; margin-right: 3px; position: relative; right: auto; flex-basis: auto; flex-shrink: 0; max-width: none; min-width: 429px;" />
+        <ui:Button text="Create" display-tooltip-when-elided="true" name="Create" style="white-space: nowrap; flex-direction: row; align-items: stretch; justify-content: flex-start; right: auto; width: auto;" />
+    </uie:Toolbar>
+    <ui:Label text="语言列表" display-tooltip-when-elided="true" />
+    <ui:VisualElement name="LanguageList" style="flex-direction: column;">
+        <ui:ListView focusable="true" name="LanguageList" fixed-item-height="20" style="height: 242px;" />
+    </ui:VisualElement>
+</ui:UXML>

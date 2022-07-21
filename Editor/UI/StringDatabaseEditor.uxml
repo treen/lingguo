@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.blg.gtc.language/Editor/UI/KeySelector/KeyListView.uss?fileID=7433441132597879392&amp;guid=dcad02f02ec9bd348b329f460a7d71de&amp;type=3#KeyListView" />
+    <ui:TextField picking-mode="Ignore" label="Language" name="Language" />
+    <uie:ToolbarSearchField focusable="true" name="SearchBar" />
+    <ui:Button text="ImportDictionaray" display-tooltip-when-elided="true" name="ImportDictionaray" />
+    <ui:ListView focusable="true" name="Dictionaray" show-border="true" show-alternating-row-backgrounds="All" item-height="20" fixed-item-height="20" style="height: 249px;" />
+</ui:UXML>

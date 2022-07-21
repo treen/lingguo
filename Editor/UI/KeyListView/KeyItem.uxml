@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="KeyItem" style="flex-direction: row; align-items: center; justify-content: flex-start; display: flex;">
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="Key" style="width: 40%;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="Value" style="width: 60%;" />
+    </ui:VisualElement>
+</ui:UXML>

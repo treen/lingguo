@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fa8a743596392bd4ea06e9045db79043
+  m_SerializeEntries:
+  - m_GUID: faf730a8e3cabf3489cb644bcc24da05
+    m_Address: Assets/Language/English/English.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c349f4b458ea114fb83dabf3468acf6
+    m_Address: Assets/CommonUI.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 606157cc0fe239846b17fb9baf2bf1a3
+    m_Address: Assets/Language/English/LoginDialog.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7b0daeb5f9635094a9b5f01c664e3e33
+    m_Address: Assets/Language/LoginDialog.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 79bf8d1712ff3fa4eaf585a225838493
+    m_Address: Assets/Language/Chinese.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6fac3debee11d1a4884d1aec5344f62e
+    m_Address: Assets/Materials/ChinaFlag.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2bda435399ea5b74bbf76883464eaff9
+    m_Address: Assets/Materials/EnglandFlag.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 06a60c6786fc7b64cb1986297fe35c21, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2708711474540c7408a80690b7708b84, type: 2}
+    - {fileID: 11400000, guid: fd959a0e0ded4d44b8a740299a6916f0, type: 2}

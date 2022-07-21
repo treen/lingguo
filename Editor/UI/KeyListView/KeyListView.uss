@@ -1,0 +1,42 @@
+VisualElement {
+}
+
+.list-item-key {
+    width: 30%;
+    -unity-text-align: middle-left;
+    -unity-text-outline-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-color: rgba(255, 255, 255, 255);
+    border-right-color: rgba(255, 255, 255, 255);
+    border-top-color: rgba(255, 255, 255, 255);
+    border-bottom-color: rgba(255, 255, 255, 255);
+}
+
+.list-item-value {
+    -unity-text-align: middle-left;
+    width: 40%;
+    border-left-color: rgba(135, 135, 135, 255);
+    border-right-color: rgba(135, 135, 135, 255);
+    border-top-color: rgba(135, 135, 135, 255);
+    border-bottom-color: rgba(135, 135, 135, 255);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.list-item-comment {
+    -unity-text-align: middle-left;
+    width: 30%;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-color: rgba(255, 255, 255, 255);
+    border-right-color: rgba(255, 255, 255, 255);
+    border-top-color: rgba(255, 255, 255, 255);
+    border-bottom-color: rgba(255, 255, 255, 255);
+}
