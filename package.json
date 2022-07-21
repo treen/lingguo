@@ -3,7 +3,7 @@
   "displayName": "Lingguo",
   "version": "0.1.11",
   "unity": "2020.3",
-  "description": "multiply language support",
+  "description": "multiply language support https://github.com/treen/lingguo/tree/main",
   "documentationUrl": "https://github.com/treen/lingguo/tree/main",
   "keywords": [
     "\u591a\u8bed\u8a00",
@@ -25,6 +25,10 @@
   "author": {
     "name": "ZhengQun",
     "email": "treen@163.com"
+  },
+  "license": "MIT",
+  "publishConfig": {
+   "@treen:registry": "https://npm.pkg.github.com"
   },
   "hideInEditor": false
 }
