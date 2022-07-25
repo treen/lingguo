@@ -80,18 +80,26 @@ Unity多语言支持
 
    1. ####  切换Sprite资源
 
-            1. 选中用来切换的sprite，勾选Addressable
-                     1. ![22](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/22.png)
-            2. 然后选中相应语言包的AssetDatabase，添加相应的资产和Key
-                     1. ![24](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/24.png)![27](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/27.png)
-                     2. ![28](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/28.png)![29](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/29.png)
-            3. 然后通过Language，将该key和目标sprite资源进行绑定
-                     1. 创建demo按钮
-                              1. ![25](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/25.png)![30](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/30.png)
-                     2. 使用Language组件将刚才创建的Sprite资产绑定到按钮的image成员上
-                              1. ![31](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/31.png)
-                     3. 此时，Sprite就能自动切换为相应的语言版本了
-                              1. ![32](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/32.png)![33](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/33.png)
+      1. ##### 选中用来切换的sprite，勾选Addressable
+         
+         1. ![22](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/22.png)
+         
+      2. ##### 然后选中相应语言包的AssetDatabase，在Datas下添加相应的资产和Key
+
+         1. 中文
+            1. ![24](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/24.png)![27](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/27.png)
+         2. 英文
+            1. ![28](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/28.png)![29](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/29.png)
+
+      3. ##### 然后通过Language，将该key和目标sprite资源进行绑定
+
+         1. 创建demo按钮
+            1. ![25](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/25.png)![30](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/30.png)
+         2. 使用Language组件将刚才创建的Sprite资产绑定到按钮的image成员上
+         3. ![31](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/31.png)
+      4. ##### 此时，Sprite就能自动切换为相应的语言版本了
+
+         1. ![32](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/32.png)![33](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/33.png)
 
    2. #### 其他资产的绑定，和Sprite步骤一样
 
