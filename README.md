@@ -135,7 +135,7 @@ Unity多语言支持
 
 如果项目本身就使用Addressable的，按照项目Addressable的管理策略管理多语言资源就可以。
 
-如果不熟悉Addressable，项目本身也没有使用Addressable，那么就把多语言资源当做本地资源，打包前，以默认的配置打包Addressable:**从菜单打开Window->Asset Manager->Addressable->Groups窗口，点击Build->New Build->Default Build Script**。![47](G:\work\MarkdownPicture\Lingguo\47.png)
+如果不熟悉Addressable，项目本身也没有使用Addressable，那么就把多语言资源当做本地资源，打包前，以默认的配置打包Addressable:**从菜单打开Window->Asset Manager->Addressable->Groups窗口，点击Build->New Build->Default Build Script**。![47](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/47.png)
 
 
 
