@@ -126,5 +126,5 @@ Unity多语言支持
    2. 在根节点上挂载LanguageGameObject组件
    3. 设置不同语言下使用的Prefabe
       1. ![41](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/41.png)
-      2. 将该Prefab添加到场景，**运行**，然后切换语言，就可以看到Prefabe的替换
-         1. ![42](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/42.png)![43](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/43.png)
+   2. 将该Prefab添加到场景，**运行**，然后切换语言，就可以看到Prefabe的替换
+      1. ![42](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/42.png)![43](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/43.png)
