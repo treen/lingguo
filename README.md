@@ -1,7 +1,3 @@
----
-typora-root-url: https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo
----
-
 # Lingguo(灵果)
 
 Multilingual support for Unity game
