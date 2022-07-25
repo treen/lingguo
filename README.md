@@ -15,7 +15,7 @@ Unity多语言支持
 ## 准备工作
 
 1. #### 安装com.blg.gtc.lingguo包
-   1. 打开Unity包管理器,点击+按钮,选择Add package from git url,输入https://github.com/treen/lingguo.git,点击Add按钮，等待安装完成
+   1. 打开Unity包管理器,点击+按钮,选择Add package from git url,输入https://github.com/treen/lingguo.git ,点击Add按钮，等待安装完成
    1. ![44](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/44.png)
    
 2. #### 创建语言包
