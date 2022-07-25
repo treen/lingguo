@@ -73,6 +73,12 @@ Unity多语言支持
       1. ![19](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/19.png)
       2. 英文环境下![20](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/20.png)
       3. 中文环境下![21](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/21.png)
+   
+4. #### 字符串引用
+
+   1. 在字符串库以及LanguageTemplate参数中，都可以使用#key#来引用字符串资源，这样就可以实现当某个key的翻译内容改变时，其他引用这个key的地方会自动改变
+      1. ![48](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/48.png)
+      2. 当上图中，**item_knife0001**的翻译内容改变时，**condition_0001**的内容无需修改，会正确显示**item_knife0001**的翻译
 ## Unity资源替换
 
 目前支持**Sprite，Texture2D,Mesh,AudioClip,Material,**以及派生自**ScriptObject**的资源，可以应付绝大多数多语言资源替换需求。如有不支持的资源，可以选择使用**LanguageGameObject**组件，进行整个Prefabe的替换
