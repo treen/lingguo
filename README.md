@@ -69,8 +69,7 @@ Unity多语言支持
 
 3. #### 也可以通过C#特性绑定字符串
 
-   1. 在任何C#类中，都可以在字符串变量上添加[Language]特性来绑定字符串，然后通过LanguageManager.AddLanguageScript函数将类实例添加进管理器，来实现字符串变量的自动替换
-      管理器使用**弱引用**，不会影响资源释放，并且只有语言切换的时候才会触发逻辑，其他时候没有任何开销。
+   1. 在任何C#类中，都可以在字符串变量上添加[Language]特性来绑定字符串，然后通过LanguageManager.AddLanguageScript函数将类实例添加进管理器，来实现字符串变量的自动替换，管理器使用**弱引用**，不会影响资源释放，并且只有语言切换的时候才会触发逻辑，其他时候没有任何开销。
       1. ![19](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/19.png)
       2. 英文环境下![20](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/20.png)
       3. 中文环境下![21](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/21.png)
@@ -96,7 +95,7 @@ Unity多语言支持
          1. 创建demo按钮
             1. ![25](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/25.png)![30](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/30.png)
          2. 使用Language组件将刚才创建的Sprite资产绑定到按钮的image成员上
-         3. ![31](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/31.png)
+            3. ![31](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/31.png)
       4. ##### 此时，Sprite就能自动切换为相应的语言版本了
 
          1. ![32](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/32.png)![33](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/33.png)
