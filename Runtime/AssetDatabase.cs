@@ -30,9 +30,9 @@ using System;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
-    [CreateAssetMenu(menuName = "BLG/GTC/Language/CreateAssetDatabase", fileName = "LanguageAssetDatabase")]
+    [CreateAssetMenu(menuName = "Lingguo/AssetDatabase", fileName = "LanguageAssetDatabase")]
     [Serializable]
     public class AssetDatabase : Database<AssetReference>
     {

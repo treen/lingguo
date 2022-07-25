@@ -31,7 +31,7 @@ using UnityEngine;
 using System.Text.RegularExpressions;
 using System.Text;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
     public class LanguageHelper
     {

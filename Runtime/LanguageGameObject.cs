@@ -33,13 +33,15 @@ using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.Events;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
     [DisallowMultipleComponent]
     [ExecuteAlways]
     public sealed class LanguageGameObject :MonoBehaviour,ILanguage
     {
-        public string currentLanguage;
+        [HideInInspector]
+        [SerializeField]
+        internal string currentLanguage;
         //public bool copyUnityEvent = true;
         [Serializable]
         public struct GameobjectBinder

@@ -27,7 +27,7 @@ SOFTWARE.
 */
 using UnityEngine;
 using UnityEditor;
-using BLG.GTC.Language;
+using BLG.GTC.Lingguo;
 
 [CustomEditor(typeof(LanguageTemplate))]
 public class LanguageTemplateEditor : Editor

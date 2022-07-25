@@ -30,7 +30,7 @@ using UnityEditor.SceneManagement;
 using UnityEditor;
 using UnityEngine;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
     
     internal static class GuiHelper
@@ -71,7 +71,7 @@ namespace BLG.GTC.Language
             var object2 = EditorUtility.InstanceIDToObject(@object.GetInstanceID()) as GameObject;
             if (object2 == null)
                 return false;
-            GameObject parent = object2.transform.parent?.gameObject;
+            GameObject parent = object2.transform.gameObject;
             while(parent != null)
             {
                 if (startObject == parent)

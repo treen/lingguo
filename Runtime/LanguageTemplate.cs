@@ -32,9 +32,9 @@ using UnityEngine;
 using System.Linq;
 using System.Reflection;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
-    [CreateAssetMenu(menuName = "BLG/GTC/Lingguo/Template")]
+    [CreateAssetMenu(menuName = "Lingguo/Template")]
     [ExecuteAlways]
     public class LanguageTemplate : ScriptableObject
     {
@@ -75,6 +75,11 @@ namespace BLG.GTC.Language
         }
         public void UpdateValue(LanguagePackage languagePack)
         {
+            if (args == null)
+            {
+                Debug.LogError("args must not be null");
+                return;
+            }
             var tranlatedArgs = (from arg in args
                    select LanguageHelper.Translate(arg, languagePack))
                    .ToArray();
@@ -88,7 +93,8 @@ namespace BLG.GTC.Language
                     var list = memberInfo switch
                     {
                         FieldInfo fi => fi.GetValue(bindObj) as IList,
-                        PropertyInfo pi => pi.GetValue(bindObj) as IList
+                        PropertyInfo pi => pi.GetValue(bindObj) as IList,
+                        _=>null
                     };
                     list[elementIndex] = value;
                 }

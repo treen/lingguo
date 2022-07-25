@@ -30,7 +30,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
 
 
@@ -43,8 +43,8 @@ namespace BLG.GTC.Language
         List<CommentData> commentList = new List<CommentData>();
 
         static CommentManager instance = null;
-        const string assetPath = "Assets/Language/Editor/CommentManager.asset";
-        const string commentFolder = "Assets/Language/Editor/Comment/";
+        const string assetPath = "Assets/Lingguo/Editor/CommentManager.asset";
+        const string commentFolder = "Assets/Lingguo/Editor/Comment/";
         public static CommentManager Single()
         {
             if (instance)

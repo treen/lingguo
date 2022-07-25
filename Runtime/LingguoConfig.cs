@@ -30,10 +30,10 @@ using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using System;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
 
-    public class LanguageConfig : MonoBehaviour
+    public class LingguoConfig : MonoBehaviour
     {
         //class LanguagePackWrap
         [Serializable]

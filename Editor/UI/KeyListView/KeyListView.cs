@@ -1,4 +1,4 @@
-using BLG.GTC.Language;
+using BLG.GTC.Lingguo;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +7,7 @@ using UnityEditor.UIElements;
 using System.Linq;
 using System;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
 
     public class KeyListView
@@ -41,8 +41,8 @@ namespace BLG.GTC.Language
 
         void OnSearchKeyChange(ChangeEvent<string> evt)
         {
-            var result = (from data in keyList
-                          where data.Item1.Contains(evt.newValue) || data.Item2.ToString().Contains(evt.newValue) || data.Item3.Contains(evt.newValue)
+            var result = (from data in keyList.AsParallel()
+                          where data.Item1.Contains(evt.newValue) || data.Item2.ToString().Contains(evt.newValue) || data.Item3?.Contains(evt.newValue) ==true
                           select data).ToList();
             keyListView.itemsSource = result;
             keyListView.Rebuild();

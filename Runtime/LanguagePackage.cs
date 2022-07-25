@@ -32,11 +32,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
 
     [Serializable]
-    [CreateAssetMenu(menuName = "BLG/GTC/Lingguo/CreateLanguagePackage")]
+    [CreateAssetMenu(menuName = "Lingguo/LanguagePackage")]
     public class LanguagePackage : ScriptableObject,IEnumerable
     {
         [SerializeField]
@@ -129,7 +129,7 @@ namespace BLG.GTC.Language
             {
                 foreach (var str in stringDatabase.Dictionary)
                 {
-                    yield return new KeyValuePair<string, string>(str.Key, str.Value);
+                    yield return new KeyValuePair<string, object>(str.Key, str.Value);
                 }
             }
         }

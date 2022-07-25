@@ -28,7 +28,7 @@ SOFTWARE.
 
 using System;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
     [System.AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = true)]
     public class LanguageAttribute : Attribute

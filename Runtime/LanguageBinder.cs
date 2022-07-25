@@ -34,7 +34,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.UI;
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
 
 

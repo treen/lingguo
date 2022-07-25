@@ -31,7 +31,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Reflection;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
     class HashWeakReference : WeakReference, IEquatable<HashWeakReference>
     {

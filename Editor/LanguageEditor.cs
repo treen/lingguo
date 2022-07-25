@@ -28,9 +28,9 @@ SOFTWARE.
 using UnityEngine;
 using UnityEditor;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
-    [CustomPropertyDrawer(typeof(LanguageConfig.LanguagePackWrap))]
+    [CustomPropertyDrawer(typeof(LingguoConfig.LanguagePackWrap))]
     class LanguagePackWrapDrawer : PropertyDrawer
     {
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)

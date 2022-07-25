@@ -1,7 +1,7 @@
 {
   "name": "com.blg.gtc.lingguo",
   "displayName": "Lingguo",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "unity": "2020.3",
   "description": "multiply language support https://github.com/treen/lingguo/tree/main",
   "documentationUrl": "https://github.com/treen/lingguo/tree/main",

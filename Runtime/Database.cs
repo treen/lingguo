@@ -30,7 +30,7 @@ SOFTWARE.
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
 
     [Serializable]
@@ -45,7 +45,7 @@ namespace BLG.GTC.Language
         public string language;
         [SerializeField]
         List<Data> datas = new List<Data>();
-#if UNITY_EDITOR
+#if !UNITY_EDITOR
         SortedDictionary<string, T> dictionary = new SortedDictionary<string, T>();
         public SortedDictionary<string, T> Dictionary { get => dictionary; }
 #else

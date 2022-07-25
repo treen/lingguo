@@ -34,7 +34,7 @@ using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 using UnityEngine;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
     public class BindGameObjectSelectorWindow : EditorWindow
     {

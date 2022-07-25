@@ -30,7 +30,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.UIElements;
-using BLG.GTC.Language;
+using BLG.GTC.Lingguo;
 using UnityEditor.UIElements;
 using UnityEngine.AddressableAssets;
 
@@ -103,7 +103,7 @@ public class KeySelectorWindow : EditorWindow
     {
         if (LanguageManager.CurrentLanguagePackage == null)
         {
-            bottomElement.Add(new HelpBox("no language package", HelpBoxMessageType.Error));
+            bottomElement.Add(new HelpBox("no language package,is that forget  add LingguoConfig Component to scene", HelpBoxMessageType.Error));
             return;
         }
 

@@ -37,7 +37,7 @@ using UnityEditor.UIElements;
 using TinyCsvParser;
 using TinyCsvParser.Mapping;
 using TinyCsvParser.Tokenizer;
-using BLG.GTC.Language;
+using BLG.GTC.Lingguo;
 
 [CustomEditor(typeof(StringDatabase))]
 public class StringDatabaseEditor : Editor

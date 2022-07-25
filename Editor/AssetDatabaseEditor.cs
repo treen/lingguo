@@ -26,7 +26,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 using UnityEditor;
-namespace BLG.GTC.Language
+using UnityEngine;
+
+namespace BLG.GTC.Lingguo
 {
     [CustomEditor(typeof(AssetDatabase))]
     public class AssetDatabaseEditor : Editor
@@ -42,8 +44,11 @@ namespace BLG.GTC.Language
             EditorGUILayout.PropertyField(datas, true);
             if (oldSize < datas.arraySize)
             {
-                var key = datas.GetArrayElementAtIndex(oldSize).FindPropertyRelative("key");
+                var newData = datas.GetArrayElementAtIndex(datas.arraySize - 1);
+                newData.isExpanded = true;
+                var key = newData.FindPropertyRelative("key");
                 key.stringValue = "new key";
+                
             }
             serializedObject.ApplyModifiedProperties();
         }

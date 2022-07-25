@@ -29,7 +29,7 @@ using System;
 using System.Reflection;
 using UnityEngine;
 
-namespace BLG.GTC.Language {
+namespace BLG.GTC.Lingguo {
 
 	public static class GUIView {
 		

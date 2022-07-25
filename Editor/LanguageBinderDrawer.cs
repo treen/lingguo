@@ -32,11 +32,11 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEditor;
 using UnityEngine;
-using BLG.GTC.Language;
+using BLG.GTC.Lingguo;
 using UnityEditorInternal;
 
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
     [CustomPropertyDrawer(typeof(LanguageBinder))]
     public class LanguageBinderDrawer : PropertyDrawer

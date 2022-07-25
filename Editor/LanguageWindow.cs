@@ -30,7 +30,7 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
     public class LanguageWindow : EditorWindow
     {
@@ -91,7 +91,7 @@ namespace BLG.GTC.Language
             var languageNameTextField = rootVisualElement.Q<TextField>("NewLanguageName");
             var newLanguageName = languageNameTextField.text;
 
-            var parentFolder = $"Language/{newLanguageName}/";
+            var parentFolder = $"Lingguo/{newLanguageName}/";
             parentFolder = GuiHelper.CreateFolder(parentFolder);
 
             var newAssetDatabase = CreateInstance<AssetDatabase>();
@@ -121,7 +121,10 @@ namespace BLG.GTC.Language
 
         }
 
-
+        private void OnValidate()
+        {
+            FillLanguageList();
+        }
 
 
 

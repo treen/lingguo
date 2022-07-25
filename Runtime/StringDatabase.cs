@@ -28,9 +28,9 @@ SOFTWARE.
 using System;
 using UnityEngine;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
-    [CreateAssetMenu(menuName = "BLG/GTC/Lingguo/CreateStringDatabase", fileName = "LanguageStringDatabase")]
+    [CreateAssetMenu(menuName = "Lingguo/StringDatabase", fileName = "LanguageStringDatabase")]
     [Serializable]
     public class StringDatabase : Database<string>
     {

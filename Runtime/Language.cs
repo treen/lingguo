@@ -32,7 +32,7 @@ using UnityEngine;
 using System.Linq;
 using UnityEngine.Events;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
     public interface ILanguage
     {

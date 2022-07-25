@@ -28,7 +28,7 @@ SOFTWARE.
 
 using UnityEngine;
 
-namespace BLG.GTC.Language
+namespace BLG.GTC.Lingguo
 {
     public class LanguageSupport : MonoBehaviour
     {
