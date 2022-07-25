@@ -1,4 +1,4 @@
-using BLG.GTC.Language;
+using BLG.GTC.Lingguo;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

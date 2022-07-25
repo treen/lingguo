@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 695b01bb52f87f04a9fb14d03e80f58d, type: 3}
+  m_Name: ChineseAssetDatabase
+  m_EditorClassIdentifier: 
+  language: Chinese
+  datas:
+  - key: ui.play
+    asset:
+      m_AssetGUID: 321c7c45a5ed63142ba91ab5fdb085df
+      m_SubObjectName: chinese_ui_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 0
+  - key: ui.pause
+    asset:
+      m_AssetGUID: 321c7c45a5ed63142ba91ab5fdb085df
+      m_SubObjectName: chinese_ui_1
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 0
+  - key: flag
+    asset:
+      m_AssetGUID: 6fac3debee11d1a4884d1aec5344f62e
+      m_SubObjectName: 
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 0

@@ -16,7 +16,8 @@ Unity多语言支持
 
 1. #### 安装com.blg.gtc.lingguo包
    1. 打开Unity包管理器,点击+按钮,选择Add package from git url,输入https://github.com/treen/lingguo.git,点击Add按钮，等待安装完成
-
+   1. ![44](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/44.png)
+   
 2. #### 创建语言包
 
    1. 打开lingguo窗口window->Lingguo,在语言栏输入语言包名字，点击Create
@@ -129,3 +130,15 @@ Unity多语言支持
       1. ![41](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/41.png)
    2. 将该Prefab添加到场景，**运行**，然后切换语言，就可以看到Prefabe的替换
       1. ![42](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/42.png)![43](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/43.png)
+
+# 关于打包
+
+如果项目本身就使用Addressable的，按照项目Addressable的管理策略管理多语言资源就可以。
+
+如果不熟悉Addressable，项目本身也没有使用Addressable，那么就把多语言资源当做本地资源，打包前，以默认的配置打包Addressable:**从菜单打开Window->Asset Manager->Addressable->Groups窗口，点击Build->New Build->Default Build Script**。![47](G:\work\MarkdownPicture\Lingguo\47.png)
+
+
+
+# 关于Sample
+
+从Package包导入Sample后，需要将Assets/Samples/Lingguo/版本号/Sample目录下的AddressabeAssetsData目录移动到Assets目录下，才可以正确运行Sample

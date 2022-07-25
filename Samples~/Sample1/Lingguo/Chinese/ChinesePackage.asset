@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce39063920c94194a8bbf56b28024e53, type: 3}
+  m_Name: ChinesePackage
+  m_EditorClassIdentifier: 
+  language: Chinese
+  assetDatabase: {fileID: 11400000, guid: dd47c3732956d154aa4a006d6b17adf7, type: 2}
+  stringDatabase: {fileID: 11400000, guid: 13b2e56949e1ab440a5bd29bd05d7ff2, type: 2}

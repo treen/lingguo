@@ -17,24 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: fa8a743596392bd4ea06e9045db79043
   m_SerializeEntries:
-  - m_GUID: faf730a8e3cabf3489cb644bcc24da05
-    m_Address: Assets/Language/English/English.asset
+  - m_GUID: 4567ea067d46ab94d836ea0cb854110a
+    m_Address: Assets/Lingguo/Chinese/ChinesePackage.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 7c349f4b458ea114fb83dabf3468acf6
     m_Address: Assets/CommonUI.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 606157cc0fe239846b17fb9baf2bf1a3
-    m_Address: Assets/Language/English/LoginDialog.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 7b0daeb5f9635094a9b5f01c664e3e33
-    m_Address: Assets/Language/LoginDialog.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 79bf8d1712ff3fa4eaf585a225838493
-    m_Address: Assets/Language/Chinese.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 6fac3debee11d1a4884d1aec5344f62e
@@ -43,6 +31,26 @@ MonoBehaviour:
     m_SerializedLabels: []
   - m_GUID: 2bda435399ea5b74bbf76883464eaff9
     m_Address: Assets/Materials/EnglandFlag.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 059a578471eb5bc4991f8dee8f91863b
+    m_Address: Assets/Lingguo/English/EnglishPackage.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 321c7c45a5ed63142ba91ab5fdb085df
+    m_Address: Assets/Sprite/chinese_ui.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cad55d2c371b2464aa24076bae855d2f
+    m_Address: Assets/Lingguo/Template/Attack.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 99bcf152886b8ee4eb27845c27640a59
+    m_Address: Assets/Lingguo/Chinese/UI/LoginDialog.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d30bc68ce4c832c4cab5bfa5f2ad96b0
+    m_Address: Assets/Lingguo/English/UI/LoginDialog.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

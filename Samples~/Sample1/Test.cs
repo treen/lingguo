@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-using BLG.GTC.Language;
+using BLG.GTC.Lingguo;
 using UnityEngine.UI;
 using UnityEngine.AddressableAssets;
 
@@ -22,7 +22,7 @@ public class Test :MonoBehaviour,ILanguage
     public string end = "end";
     //[Language("update")]
     public string update;
-    public LanguageConfig languageConfig;
+    public LingguoConfig languageConfig;
     private void Start()
     {
         template = ScriptableObject.Instantiate(template);

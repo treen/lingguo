@@ -127,7 +127,6 @@ namespace BLG.GTC.Lingguo
             if (isList)
             {
                 keysProperty.arraySize = bindMember.arraySize;
-
                 if (keyType == LanguageBinder.KeyType.Static)
                 {
                     reorderableKeyList = new ReorderableList(property.serializedObject, keysProperty, true, true, false, false);
@@ -303,7 +302,10 @@ namespace BLG.GTC.Lingguo
                     {
                         var pi = memberInfo as PropertyInfo;
                         if (typeof(IList).IsAssignableFrom(pi.PropertyType))
+                        {
                             bindableMember.isList = true;
+                            bindableMember.arraySize = (pi.GetValue(obj) as IList).Count;
+                        }
                         typeName = pi.PropertyType.Name;
                     }
                     bindableMember.fullMemberName = string.Format("{0}.{1}{3}({2})", obj.GetType().Name, memberInfo.Name, typeName, typeIndex > 0 ? string.Format("({0})", typeIndex) : "");

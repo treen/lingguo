@@ -48,7 +48,7 @@ namespace BLG.GTC.Lingguo
             Template = 1
         };
         static BindingFlags bindingFlags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance;
-        public static Type[] bindableTypes = new Type[] {typeof(Sprite),  typeof(Texture2D), typeof(string), typeof(AudioClip),typeof(Mesh),typeof(Material),typeof(ScriptableObject)};
+        public static Type[] bindableTypes = new Type[] {typeof(Sprite),  typeof(Texture2D), typeof(string), typeof(AudioClip),typeof(Mesh),typeof(Material),typeof(ScriptableObject),typeof(Dropdown.OptionData) };
         [SerializeField]
         KeyType keyType;
 
@@ -74,7 +74,12 @@ namespace BLG.GTC.Lingguo
             return typeof(IList).IsAssignableFrom(type) switch
             {
                 false => bindableTypes.Any(t => t.IsAssignableFrom(type)),
-                true => bindableTypes.Any(t => t.IsAssignableFrom(type.GetElementType())),
+                true => type.HasElementType switch
+                {
+                    true=> bindableTypes.Any(t => t.IsAssignableFrom(type.GetElementType())),
+                    false=> bindableTypes.Any(t => t.IsAssignableFrom(type.GetGenericArguments().Single()))
+                }
+                
             };
         }
         internal MemberInfo GetBindMember()
@@ -225,9 +230,10 @@ namespace BLG.GTC.Lingguo
 
         void SetValues(IList list,Type type, LanguagePackage languagePack)
         {
+            var count = Math.Min(list.Count, keys.Length);
             if( keyType == KeyType.Static )
             {
-                for (int i = 0; i < list.Count; ++i)
+                for (int i = 0; i < count; ++i)
                 {
                     void OnLoadAsset(object obj)
                     {
@@ -246,7 +252,7 @@ namespace BLG.GTC.Lingguo
             }
             else if( keyType == KeyType.Template )
             {
-                int count = Math.Min(templates.Length, list.Count);
+                count = Math.Min(templates.Length, list.Count);
                 for (int i = 0; i < count; ++i)
                 {
                     list[i] = templates[i]?.Value??"";
@@ -257,9 +263,10 @@ namespace BLG.GTC.Lingguo
 
         void SetDropdownValues(List<Dropdown.OptionData> list, LanguagePackage languagePack)
         {
+            var count = Math.Min(list.Count, keys.Length);
             if (keyType == KeyType.Static)
             {
-                for (int i = 0; i < list.Count; ++i)
+                for (int i = 0; i < count; ++i)
                 {
                     var value = languagePack.GetValue(keys[i]);
                     if (value is string)
@@ -270,7 +277,7 @@ namespace BLG.GTC.Lingguo
             }
             else if (keyType == KeyType.Template)
             {
-                for (int i = 0; i < list.Count; ++i)
+                for (int i = 0; i < count; ++i)
                 {
                     var value = languagePack.GetValue(keys[i]);
                     if (value is string)
