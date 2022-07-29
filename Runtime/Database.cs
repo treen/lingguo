@@ -99,5 +99,13 @@ namespace BLG.GTC.Lingguo
         {
             return dictionary?.ContainsKey(key) ?? false ;
         }
+        public void RemoveKey(string key)
+        {
+            dictionary?.Remove(key);
+        }
+        public void Clear()
+        {
+            dictionary?.Clear();
+        }
     }
 }

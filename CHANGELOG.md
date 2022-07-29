@@ -31,3 +31,7 @@ key选择器中添加sprite预览功能
 修复Dropdown绑定bug
 使用说明添加关于打包和Sample的说明
 Sample更新
+
+
+## [0.1.14] - 2022-7-26
+字符串数据库添加Delete和Clear功能

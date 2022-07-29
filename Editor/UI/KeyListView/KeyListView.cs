@@ -13,12 +13,14 @@ namespace BLG.GTC.Lingguo
     public class KeyListView
     {
         ListView keyListView;
-
         List<(string, object, string)> keyList = new List<(string, object, string)>();
         public List<(string, object, string)> KeyList { get => keyList; }
+        public string SelectedKey { get => selectedKey;  }
 
         public event Action<IEnumerable<object>> onSelectionChange;
         public event Action<IEnumerable<object>> onItemsChosen;
+
+        string selectedKey;
         public KeyListView(VisualElement listView)
         {
             keyListView = listView.Q<ListView>("KeyList");
@@ -36,6 +38,11 @@ namespace BLG.GTC.Lingguo
 
         private void KeyListView_onSelectionChange(IEnumerable<object> obj)
         {
+            var itr = obj.GetEnumerator();
+            if(itr.MoveNext())
+            {
+                selectedKey = (((string, object, string))itr.Current).Item1;
+            }
             onSelectionChange?.Invoke(obj);
         }
 

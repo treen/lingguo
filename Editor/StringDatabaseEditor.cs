@@ -92,20 +92,45 @@ public class StringDatabaseEditor : Editor
         var language = new TextField("Language");
         customInspector.Insert(0,language);
         language.BindProperty(serializedObject.FindProperty("language"));
+        
+        var toolbar = new Toolbar();
+        customInspector.Insert(1,toolbar);
 
-        var importDictionarayButton = new Button(OnImportDictionaray);
+
+        var importDictionarayButton = new ToolbarButton(OnImportDictionaray);
         importDictionarayButton.text = "ImportDictionaray";
-        customInspector.Insert(1,importDictionarayButton);
-        //var keys = serializedObject.FindProperty("keys");
-        //var values = serializedObject.FindProperty("values");
-        //listView.BindProperty(keys);
+        toolbar.Insert(0,importDictionarayButton);
 
+        var deleteButton = new ToolbarButton(OnDeleteSelectKey);
+        deleteButton.text = "Delete";
+        deleteButton.tooltip = "Delete selected key";
+        toolbar.Insert(1, deleteButton);
 
-        //IMGUIContainer iMGUIContainer = customInspector.Q<IMGUIContainer>();
-        //iMGUIContainer.onGUIHandler += OnGUI;
+        var clearButton = new ToolbarButton(OnClear);
+        clearButton.text = "Clear";
+        clearButton.tooltip = "Clear all keys";
+        toolbar.Insert(2, clearButton);
+
         UpdateKeyListView();
         return customInspector;
     }
+
+    private void OnClear()
+    {
+        var stringDatabase = serializedObject.targetObject as StringDatabase;
+        stringDatabase.Clear();
+        serializedObject.Update();
+        UpdateKeyListView();
+    }
+
+    private void OnDeleteSelectKey()
+    {
+        var stringDatabase = serializedObject.targetObject as StringDatabase;
+        stringDatabase.RemoveKey(keyListView.SelectedKey);
+        serializedObject.Update();
+        UpdateKeyListView();
+    }
+
     void UpdateKeyListView()
     {
         List<(string, object, string)> keyList = new List<(string, object, string)>();
@@ -116,6 +141,7 @@ public class StringDatabaseEditor : Editor
             keyList.Add((data.key, data.asset, comment));
         }
         keyListView.SetSource(keyList);
+        keyListView.Rebuild();
     }
 
     void OnImportDictionaray()

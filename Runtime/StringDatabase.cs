@@ -34,6 +34,5 @@ namespace BLG.GTC.Lingguo
     [Serializable]
     public class StringDatabase : Database<string>
     {
-        
     }
 }
