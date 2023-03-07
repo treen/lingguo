@@ -43,6 +43,7 @@ namespace BLG.GTC.Lingguo
 
 
     [ExecuteAlways]
+    [AddComponentMenu("Lingguo/Language")]
     public class Language : MonoBehaviour,ILanguage
     {
         //public List<StringBind> stringBinds = new List<StringBind>();

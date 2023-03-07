@@ -52,7 +52,7 @@ namespace BLG.GTC.Lingguo
                           where data.Item1.Contains(evt.newValue) || data.Item2.ToString().Contains(evt.newValue) || data.Item3?.Contains(evt.newValue) ==true
                           select data).ToList();
             keyListView.itemsSource = result;
-            keyListView.Rebuild();
+            keyListView.Refresh();
         }
 
         public void SetSource(List<(string, object, string)> list)
@@ -91,7 +91,7 @@ namespace BLG.GTC.Lingguo
         }
         public void Rebuild()
         {
-            keyListView.Rebuild();
+            keyListView.Refresh();
         }
     }
 }

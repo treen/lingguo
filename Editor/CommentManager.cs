@@ -102,12 +102,12 @@ namespace BLG.GTC.Lingguo
         {
             keyList.Clear();
             commentList.Clear();
-            foreach(var (k,v)in commentDictionary)
+            foreach(var kv in commentDictionary)
             {
-                if (k != null)
+                if (kv.Key != null)
                 {
-                    keyList.Add(k);
-                    commentList.Add(v);
+                    keyList.Add(kv.Key);
+                    commentList.Add(kv.Value);
                 }
             }
 
@@ -116,15 +116,23 @@ namespace BLG.GTC.Lingguo
         public string GetComment(LanguagePackage languagePackage,string key)
         {
             string comment = null;
-            commentDictionary?.GetValueOrDefault(languagePackage.StringDatabase)?.GetData(key,out comment);
-            if(comment == null)
-                commentDictionary?.GetValueOrDefault(languagePackage.AssetDatabase)?.GetData(key, out comment);
+            CommentData commentDatabase = null;
+            commentDictionary?.TryGetValue(languagePackage.StringDatabase, out commentDatabase);
+            commentDatabase?.GetData(key, out comment);
+            if (comment == null)
+            {
+                
+                commentDictionary?.TryGetValue(languagePackage.AssetDatabase,out commentDatabase);
+                commentDatabase?.GetData(key, out comment);
+            }
             return comment;            
         }
         public string GetComment(ScriptableObject database, string key)
         {
             string comment = null;
-            commentDictionary?.GetValueOrDefault(database)?.GetData(key, out comment);
+            CommentData commentDatabase = null;
+            commentDictionary?.TryGetValue(database,out commentDatabase);
+            commentDatabase?.GetData(key, out comment);
             return comment;
         }
     }

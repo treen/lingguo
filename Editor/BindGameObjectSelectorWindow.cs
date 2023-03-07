@@ -166,7 +166,7 @@ namespace BLG.GTC.Lingguo
             m_FilteredItems.Clear();
             m_FilteredItems.AddRange(allItems.Where(item => string.IsNullOrEmpty(searchText) || item.label.IndexOf(searchText, StringComparison.InvariantCultureIgnoreCase) >= 0));
 
-            m_ListView.Rebuild();
+            m_ListView.Refresh();
         }
 
         void BindItem(VisualElement listItem, int index)

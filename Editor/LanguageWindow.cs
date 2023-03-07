@@ -82,7 +82,7 @@ namespace BLG.GTC.Lingguo
                 objectField.SetEnabled(false);
 
             };
-            listview.Rebuild();
+            listview.Refresh();
             
         }
 

@@ -102,7 +102,7 @@ Unity多语言支持
          1. 创建demo按钮
             1. ![25](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/25.png)![30](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/30.png)
          2. 使用Language组件将刚才创建的Sprite资产绑定到按钮的image成员上,Language组件可以放在任意需要替换资源的父节点上.比如一个对话框一个Language组件,Language组件放在对话框根节点上,就可以管理该对话框下的所有节点
-            3. ![31](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/31.png)
+            1. ![31](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/31.png)
       4. ##### 此时，Sprite就能自动切换为相应的语言版本了
 
          1. ![32](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/32.png)![33](https://raw.githubusercontent.com/treen/MarkdownPicture/main/Lingguo/33.png)

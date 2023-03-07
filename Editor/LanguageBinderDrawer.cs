@@ -61,8 +61,8 @@ namespace BLG.GTC.Lingguo
             var index = Array.IndexOf(objects, component);
             return index switch
             {
-                < 0 => "none",
-                >= 1 => string.Format("{0}.{1}({2})", component.GetType().Name, bindName, index),
+                int i when i < 0 => "none",
+                int i when i >= 1 => string.Format("{0}.{1}({2})", component.GetType().Name, bindName, index),
                 _ => string.Format("{0}.{1}", component.GetType().Name, bindName)
             };
         }
